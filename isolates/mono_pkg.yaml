@@ -1,0 +1,8 @@
+sdk:
+  - dev
+  - 2.15.0-268.18.beta
+
+stages:
+  - analysis:
+    - analyze: --fatal-infos .
+    - format
